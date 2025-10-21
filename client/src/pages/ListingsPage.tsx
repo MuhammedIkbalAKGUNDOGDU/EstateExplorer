@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "wouter";
 import { SlidersHorizontal } from "lucide-react";
@@ -17,17 +17,30 @@ import { Slider } from "@/components/ui/slider";
 
 export default function ListingsPage() {
   const { t } = useTranslation();
-  const [location] = useLocation();
-  const urlParams = new URLSearchParams(location.split("?")[1] || "");
+  const [location, setLocation] = useLocation();
+  const urlParams = new URLSearchParams(window.location.search);
   const typeFromUrl = urlParams.get("type");
+  const maxPriceFromUrl = urlParams.get("maxPrice");
 
   const [filters, setFilters] = useState({
     type: typeFromUrl || "all",
-    minPrice: 0,
-    maxPrice: 3000000,
+    maxPrice: maxPriceFromUrl ? parseInt(maxPriceFromUrl) : 2000000,
     beds: "all",
     baths: "all",
   });
+
+  // URL parametreleri değiştiğinde filtreleri güncelle
+  React.useEffect(() => {
+    console.log("URL params changed:", { typeFromUrl, maxPriceFromUrl });
+    const newFilters = {
+      type: typeFromUrl || "all",
+      maxPrice: maxPriceFromUrl ? parseInt(maxPriceFromUrl) : 2000000,
+      beds: "all",
+      baths: "all",
+    };
+    console.log("Setting filters to:", newFilters);
+    setFilters(newFilters);
+  }, [typeFromUrl, maxPriceFromUrl]);
 
   const [sortBy, setSortBy] = useState("featured");
   const [currentPage, setCurrentPage] = useState(1);
@@ -40,9 +53,7 @@ export default function ListingsPage() {
       filtered = filtered.filter((p) => p.type === filters.type);
     }
 
-    filtered = filtered.filter(
-      (p) => p.price >= filters.minPrice && p.price <= filters.maxPrice
-    );
+    filtered = filtered.filter((p) => p.price <= filters.maxPrice);
 
     if (filters.beds !== "all") {
       filtered = filtered.filter((p) => p.beds >= parseInt(filters.beds));
@@ -75,12 +86,12 @@ export default function ListingsPage() {
   const clearFilters = () => {
     setFilters({
       type: "all",
-      minPrice: 0,
-      maxPrice: 3000000,
+      maxPrice: 2000000,
       beds: "all",
       baths: "all",
     });
-    console.log("Filters cleared");
+    // URL'yi de temizle
+    setLocation("/listings");
   };
 
   return (
@@ -136,12 +147,13 @@ export default function ListingsPage() {
                   </label>
                   <Slider
                     min={0}
-                    max={3000000}
+                    max={2000000}
                     step={50000}
                     value={[filters.maxPrice]}
-                    onValueChange={([value]) =>
-                      setFilters({ ...filters, maxPrice: value })
-                    }
+                    onValueChange={([value]) => {
+                      console.log("Slider changed to:", value);
+                      setFilters({ ...filters, maxPrice: value });
+                    }}
                     data-testid="slider-price"
                   />
                   <div className="text-sm text-muted-foreground mt-2">
