@@ -109,6 +109,16 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground text-sm">
           {t("footer.copyright")}
+          <div className="mt-2">
+            <a
+              href="https://softiumtechnologies.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 transition-colors"
+            >
+              Softium Technologies tarafından hazırlanmıştır
+            </a>
+          </div>
         </div>
       </div>
     </footer>
