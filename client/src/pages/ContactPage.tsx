@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,11 +13,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-// GoogleMap import'u kaldırıldı
 
 export default function ContactPage() {
   const { t } = useTranslation();
-  const mapRef = useRef<HTMLDivElement>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -26,60 +24,6 @@ export default function ContactPage() {
     message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [mapLoaded, setMapLoaded] = useState(false);
-
-  // Google Maps'i yükle
-  useEffect(() => {
-    const loadGoogleMaps = () => {
-      if (window.google && window.google.maps && mapRef.current) {
-        const map = new window.google.maps.Map(mapRef.current, {
-          center: { lat: 38.8847, lng: 40.4986 }, // Bingöl il merkezi
-          zoom: 16,
-          mapTypeId: window.google.maps.MapTypeId.ROADMAP,
-          styles: [
-            {
-              featureType: "poi",
-              elementType: "labels",
-              stylers: [{ visibility: "off" }],
-            },
-          ],
-        });
-
-        // Marker ekle
-        new window.google.maps.Marker({
-          position: { lat: 38.8847, lng: 40.4986 },
-          map: map,
-          title: "Bingöl Merkez - Premier Real Estate",
-          icon: {
-            url:
-              "data:image/svg+xml;charset=UTF-8," +
-              encodeURIComponent(`
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="18" fill="#3B82F6" stroke="white" stroke-width="4"/>
-                <path d="M20 8C14.477 8 10 12.477 10 18C10 25 20 32 20 32C20 32 30 25 30 18C30 12.477 25.523 8 20 8Z" fill="white"/>
-                <circle cx="20" cy="18" r="4" fill="#3B82F6"/>
-              </svg>
-            `),
-            scaledSize: new window.google.maps.Size(40, 40),
-          },
-        });
-
-        setMapLoaded(true);
-      }
-    };
-
-    // Google Maps script'ini yükle
-    if (!window.google) {
-      const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBvOkBw3cJ3n2qE8vF7gH9iK1lM4nO6pQ8&libraries=marker`;
-      script.async = true;
-      script.defer = true;
-      script.onload = loadGoogleMaps;
-      document.head.appendChild(script);
-    } else {
-      loadGoogleMaps();
-    }
-  }, []);
 
   const contactInfo = [
     {
@@ -293,18 +237,16 @@ export default function ContactPage() {
                 {t("contact.map.title")}
               </h2>
               <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-border">
-                {!mapLoaded ? (
-                  <div className="flex items-center justify-center h-full bg-muted/20">
-                    <div className="text-center">
-                      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-                      <p className="text-muted-foreground">
-                        Harita yükleniyor...
-                      </p>
-                    </div>
-                  </div>
-                ) : (
-                  <div ref={mapRef} className="w-full h-full" />
-                )}
+                <iframe
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=40.4800%2C38.8700%2C40.5200%2C38.9000&layer=mapnik&marker=38.8847%2C40.4986"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Bingöl Merkez - Premier Real Estate Ofisi"
+                />
               </div>
               <div className="mt-4 p-4 bg-muted/50 rounded-lg">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
