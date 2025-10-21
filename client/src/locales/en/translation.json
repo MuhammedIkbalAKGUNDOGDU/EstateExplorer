@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Home",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "Find Your Dream Home",
+    "subtitle": "Discover the perfect property from our extensive collection of premium listings",
+    "search": "Search"
+  },
+  "search": {
+    "location": "Location",
+    "type": "Property Type",
+    "priceRange": "Price Range",
+    "allTypes": "All Types",
+    "forSale": "For Sale",
+    "forRent": "For Rent"
+  },
+  "property": {
+    "beds": "Beds",
+    "baths": "Baths",
+    "sqm": "sqm",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "viewDetails": "View Details",
+    "contactAgent": "Contact Agent",
+    "overview": "Overview",
+    "amenities": "Amenities",
+    "description": "Description",
+    "gallery": "Photo Gallery",
+    "month": "month"
+  },
+  "amenities": {
+    "Pool": "Swimming Pool",
+    "Garage": "Garage",
+    "Garden": "Garden",
+    "Smart Home": "Smart Home",
+    "Security System": "Security System",
+    "Gym": "Fitness Center",
+    "Concierge": "Concierge",
+    "Parking": "Parking",
+    "Balcony": "Balcony",
+    "Fireplace": "Fireplace",
+    "Patio": "Patio",
+    "Updated Kitchen": "Updated Kitchen",
+    "Master Suite": "Master Suite",
+    "Finished Basement": "Finished Basement",
+    "Deck": "Deck"
+  },
+  "listings": {
+    "title": "Property Listings",
+    "results": "properties found",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "priceRange": "Price Range",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "propertyType": "Property Type",
+    "sortBy": "Sort By",
+    "featured": "Featured",
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "newest": "Newest First"
+  },
+  "contact": {
+    "title": "Contact Agent",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Phone Number",
+    "message": "Message",
+    "send": "Send Message",
+    "interestedIn": "I'm interested in this property"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "copyright": "© 2025 Premier Real Estate. All rights reserved.",
+    "addressLine": "123 Main Street, Downtown, City 12345"
+  },
+  "featured": {
+    "title": "Featured Properties",
+    "subtitle": "Explore our handpicked selection of premium properties"
+  },
+  "stats": {
+    "properties": "Properties",
+    "happyClients": "Happy Clients",
+    "cities": "Cities",
+    "experience": "Years Experience"
+  },
+  "common": {
+    "loadMore": "Load More",
+    "viewAll": "View All",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "about": {
+    "hero": {
+      "title": "About Premier Real Estate",
+      "subtitle": "Your trusted partner in finding the perfect property for over 15 years"
+    },
+    "story": {
+      "title": "Our Story",
+      "description1": "Founded in 2009, Premier Real Estate has been at the forefront of the real estate industry, helping thousands of clients find their dream homes and make smart investment decisions.",
+      "description2": "Our team of experienced professionals combines local market knowledge with cutting-edge technology to provide unparalleled service and results.",
+      "description3": "We believe that finding the right property is more than just a transaction – it's about building lasting relationships and creating memories that last a lifetime."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "trust": {
+        "title": "Trust",
+        "description": "We build lasting relationships through transparency, honesty, and reliability in every interaction."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for the highest standards in service, attention to detail, and client satisfaction."
+      },
+      "customer": {
+        "title": "Customer First",
+        "description": "Your needs and goals are at the center of everything we do, ensuring personalized solutions."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We conduct business with the highest ethical standards and complete transparency."
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower our clients with expert guidance, innovative solutions, and exceptional service in their real estate journey, making property dreams a reality."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "interestedIn": "I'm interested in this property",
+    "message": "Message",
+    "send": "Send Message",
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Ready to find your perfect property? We're here to help you every step of the way."
+    },
+    "info": {
+      "phone": {
+        "title": "Phone",
+        "description": "Call us for immediate assistance"
+      },
+      "email": {
+        "title": "Email",
+        "description": "Send us a message anytime"
+      },
+      "address": {
+        "title": "Address",
+        "description": "Visit our office"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "value": "Mon-Fri: 9AM-6PM",
+        "description": "Saturday: 10AM-4PM"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "subtitle": "Have questions or need assistance? We'd love to hear from you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "subjects": {
+        "general": "General Inquiry",
+        "property": "Property Information",
+        "valuation": "Property Valuation",
+        "investment": "Investment Advice",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "send": "Send Message",
+      "success": {
+        "title": "Message Sent!",
+        "message": "Thank you for contacting us. We'll get back to you within 24 hours."
+      }
+    },
+    "map": {
+      "title": "Visit Our Office",
+      "placeholder": "Interactive map will be displayed here",
+      "location": "Bingöl Center - Premier Real Estate Office"
+    }
+  },
+  "blog": {
+    "title": "Real Estate Blog",
+    "subtitle": "Stay updated with the latest insights, tips, and trends in real estate",
+    "readMore": "Read More",
+    "readTime": "min read",
+    "publishedOn": "Published on",
+    "by": "by",
+    "categories": "Categories",
+    "tags": "Tags",
+    "relatedPosts": "Related Posts",
+    "backToBlog": "Back to Blog",
+    "share": "Share",
+    "categoriesList": {
+      "Buying Guide": "Buying Guide",
+      "Market Analysis": "Market Analysis",
+      "Selling Guide": "Selling Guide"
+    }
+  }
+}

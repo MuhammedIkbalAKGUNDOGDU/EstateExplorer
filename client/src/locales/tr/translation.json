@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "forSale": "Satılık",
+    "forRent": "Kiralık",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "Hayalinizdeki Evi Bulun",
+    "subtitle": "Geniş premium ilan koleksiyonumuzdan mükemmel mülkü keşfedin",
+    "search": "Ara"
+  },
+  "search": {
+    "location": "Konum",
+    "type": "Mülk Türü",
+    "priceRange": "Fiyat Aralığı",
+    "allTypes": "Tüm Türler",
+    "forSale": "Satılık",
+    "forRent": "Kiralık"
+  },
+  "property": {
+    "beds": "Yatak Odası",
+    "baths": "Banyo",
+    "sqm": "m²",
+    "forSale": "Satılık",
+    "forRent": "Kiralık",
+    "viewDetails": "Detayları Gör",
+    "contactAgent": "Temsilci ile İletişime Geç",
+    "overview": "Genel Bakış",
+    "amenities": "Olanaklar",
+    "description": "Açıklama",
+    "gallery": "Fotoğraf Galerisi",
+    "month": "ay"
+  },
+  "amenities": {
+    "Pool": "Yüzme Havuzu",
+    "Garage": "Garaj",
+    "Garden": "Bahçe",
+    "Smart Home": "Akıllı Ev",
+    "Security System": "Güvenlik Sistemi",
+    "Gym": "Fitness Merkezi",
+    "Concierge": "Kapıcı",
+    "Parking": "Otopark",
+    "Balcony": "Balkon",
+    "Fireplace": "Şömine",
+    "Patio": "Teras",
+    "Updated Kitchen": "Yenilenmiş Mutfak",
+    "Master Suite": "Ana Yatak Odası",
+    "Finished Basement": "Bitirilmiş Bodrum",
+    "Deck": "Güverte"
+  },
+  "listings": {
+    "title": "Mülk İlanları",
+    "results": "mülk bulundu",
+    "filters": "Filtreler",
+    "clearFilters": "Filtreleri Temizle",
+    "priceRange": "Fiyat Aralığı",
+    "bedrooms": "Yatak Odası",
+    "bathrooms": "Banyo",
+    "propertyType": "Mülk Türü",
+    "sortBy": "Sırala",
+    "featured": "Öne Çıkanlar",
+    "priceLowHigh": "Fiyat: Düşükten Yükseğe",
+    "priceHighLow": "Fiyat: Yüksekten Düşüğe",
+    "newest": "En Yeniler"
+  },
+  "contact": {
+    "title": "Temsilci ile İletişime Geç",
+    "name": "Adınız",
+    "email": "E-posta Adresiniz",
+    "phone": "Telefon Numarası",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "interestedIn": "Bu mülk ile ilgileniyorum"
+  },
+  "footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactInfo": "İletişim Bilgileri",
+    "followUs": "Bizi Takip Edin",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "copyright": "© 2025 Premier Emlak. Tüm hakları saklıdır.",
+    "addressLine": "Ana Cadde 123, Şehir Merkezi, Şehir 12345"
+  },
+  "featured": {
+    "title": "Öne Çıkan Mülkler",
+    "subtitle": "Özenle seçilmiş premium mülklerimizi keşfedin"
+  },
+  "stats": {
+    "properties": "Mülk",
+    "happyClients": "Mutlu Müşteri",
+    "cities": "Şehir",
+    "experience": "Yıl Deneyim"
+  },
+  "common": {
+    "loadMore": "Daha Fazla Yükle",
+    "viewAll": "Tümünü Gör",
+    "close": "Kapat",
+    "next": "İleri",
+    "previous": "Geri"
+  },
+  "about": {
+    "hero": {
+      "title": "Premier Emlak Hakkında",
+      "subtitle": "15 yılı aşkın süredir mükemmel mülk bulmanızda güvenilir ortağınız"
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "description1": "2009 yılında kurulan Premier Emlak, emlak sektöründe öncü konumda olarak binlerce müşterinin hayalindeki evi bulmasına ve akıllı yatırım kararları almasına yardımcı olmuştur.",
+      "description2": "Deneyimli profesyonellerden oluşan ekibimiz, yerel pazar bilgisi ile son teknolojiyi birleştirerek eşsiz hizmet ve sonuçlar sunmaktadır.",
+      "description3": "Doğru mülkü bulmanın sadece bir işlem olmadığına, kalıcı ilişkiler kurmak ve ömür boyu sürecek anılar yaratmak olduğuna inanıyoruz."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "subtitle": "Yaptığımız her şeyi yönlendiren ilkeler",
+      "trust": {
+        "title": "Güven",
+        "description": "Her etkileşimde şeffaflık, dürüstlük ve güvenilirlik ile kalıcı ilişkiler kuruyoruz."
+      },
+      "excellence": {
+        "title": "Mükemmellik",
+        "description": "Hizmet, detaylara dikkat ve müşteri memnuniyetinde en yüksek standartları hedefliyoruz."
+      },
+      "customer": {
+        "title": "Müşteri Önceliği",
+        "description": "İhtiyaçlarınız ve hedefleriniz yaptığımız her şeyin merkezinde, kişiselleştirilmiş çözümler sağlıyoruz."
+      },
+      "integrity": {
+        "title": "Dürüstlük",
+        "description": "En yüksek etik standartlar ve tam şeffaflıkla iş yapıyoruz."
+      }
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Müşterilerimizi emlak yolculuklarında uzman rehberlik, yenilikçi çözümler ve olağanüstü hizmetle güçlendirmek, mülk hayallerini gerçeğe dönüştürmek."
+    }
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "interestedIn": "Bu mülkle ilgileniyorum",
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "hero": {
+      "title": "İletişime Geçin",
+      "subtitle": "Mükemmel mülkünüzü bulmaya hazır mısınız? Her adımda size yardımcı olmak için buradayız."
+    },
+    "info": {
+      "phone": {
+        "title": "Telefon",
+        "description": "Acil yardım için bizi arayın"
+      },
+      "email": {
+        "title": "E-posta",
+        "description": "Bize istediğiniz zaman mesaj gönderin"
+      },
+      "address": {
+        "title": "Adres",
+        "description": "Ofisimizi ziyaret edin"
+      },
+      "hours": {
+        "title": "Çalışma Saatleri",
+        "value": "Pzt-Cum: 09:00-18:00",
+        "description": "Cumartesi: 10:00-16:00"
+      }
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "subtitle": "Sorularınız mı var yoksa yardıma mı ihtiyacınız var? Sizden haber almayı çok isteriz.",
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "subject": "Konu",
+      "subjectPlaceholder": "Bir konu seçin",
+      "subjects": {
+        "general": "Genel Soru",
+        "property": "Mülk Bilgisi",
+        "valuation": "Mülk Değerleme",
+        "investment": "Yatırım Tavsiyesi",
+        "other": "Diğer"
+      },
+      "message": "Mesaj",
+      "messagePlaceholder": "Size nasıl yardımcı olabileceğimizi söyleyin...",
+      "send": "Mesaj Gönder",
+      "success": {
+        "title": "Mesaj Gönderildi!",
+        "message": "Bizimle iletişime geçtiğiniz için teşekkürler. 24 saat içinde size dönüş yapacağız."
+      }
+    },
+    "map": {
+      "title": "Ofisimizi Ziyaret Edin",
+      "placeholder": "Etkileşimli harita burada görüntülenecek",
+      "location": "Bingöl Merkez - Premier Real Estate Ofisi"
+    }
+  },
+  "blog": {
+    "title": "Emlak Blogu",
+    "subtitle": "Emlak sektöründeki en son içgörüler, ipuçları ve trendlerle güncel kalın",
+    "readMore": "Devamını Oku",
+    "readTime": "dakika okuma",
+    "publishedOn": "Yayınlanma tarihi",
+    "by": "tarafından",
+    "categories": "Kategoriler",
+    "tags": "Etiketler",
+    "relatedPosts": "İlgili Yazılar",
+    "backToBlog": "Blog'a Dön",
+    "share": "Paylaş",
+    "categoriesList": {
+      "Buying Guide": "Satın Alma Rehberi",
+      "Market Analysis": "Piyasa Analizi",
+      "Selling Guide": "Satış Rehberi"
+    }
+  }
+}
